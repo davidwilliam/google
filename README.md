@@ -2,23 +2,21 @@
 
 Perform google searches from your terminal.
 
+This gem is in a still immature but functional.
+
+I love terminal. I think it is incredibly practical. While working, I would like to search something on google without leaving the terminal.
+
+Once I find what I am looking for, I can visit the website or resource through the website.
+
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'google'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install google
+    [sudo] gem install google
 
 ## Usage
 
-TODO: Write usage instructions here
+  From the terminal, you can search for Ruby Programming Language:
+
+    $ google Ruby Programming Language
 
 ## Contributing
 
