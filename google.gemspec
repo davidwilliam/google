@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split("\n")
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "google"
+  gem.name          = "gsearch"
   gem.require_paths = ["lib"]
   gem.version       = Google::VERSION
   gem.add_dependency "mechanize", ">= 2.6.0"
