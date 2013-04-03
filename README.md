@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 # Google
 
 Perform google searches from your terminal.
 
-This gem is in a still immature but functional.
+This gem is in a still immature but functional. For now, you will see only the results of the first page, but the second version will bring new features.
 
 I love terminal. I think it is incredibly practical. While working, I would like to search something on google without leaving the terminal.
 
@@ -26,9 +25,3 @@ Once I find what I am looking for, I can visit the website or resource through t
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-=======
-google
-======
-
-Perform google searches from your terminal
->>>>>>> 5f5f3159bdc1ea03c76b626bbb960d1547c2e404
