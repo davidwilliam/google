@@ -1,4 +1,4 @@
-# Google
+# GSearch
 
 Perform google searches from your terminal.
 
