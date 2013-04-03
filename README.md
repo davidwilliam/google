@@ -10,13 +10,18 @@ Once I find what I am looking for, I can visit the website or resource through t
 
 ## Installation
 
-    [sudo] gem install google
+    [sudo] gem install gsearch
 
 ## Usage
 
   From the terminal, you can search for Ruby Programming Language:
 
+    $ gsearch Ruby Programming Language
+
+  or
+  
     $ google Ruby Programming Language
+
 
 ## Contributing
 
