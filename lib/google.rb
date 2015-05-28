@@ -46,9 +46,10 @@ module Google
     message << "CRITERIA\n"
     message << "\tKeywords used by the search utility to fetch results from Google’s engine.\n"
     message << "SYNOPSIS\n"
-    message << "\tNAME [-v] CRITERIA\n"
+    message << "\tNAME [-v] [-c num] CRITERIA\n"
     message << "OPTIONS\n"
-    message << "\t-v\tShow version\n\n"
+    message << "\t-v\tShow version\n"
+    message << "\t-c\tRestrict the number of results\n\n"
     puts message
   end
 
