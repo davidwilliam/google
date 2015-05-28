@@ -7,13 +7,8 @@ module Google
   def self.search
     browser = Mechanize.new
 
-    criteria = ARGV
-
-    if criteria.size > 1
-      criteria = criteria.join(" ")
-    else
-      criteria = criteria.first
-    end
+    criteria = ARGV  
+    criteria = criteria.join(" ")
 
     page = browser.get('http://google.com/')  
     form = page.form_with(:name => 'f')
